@@ -108,7 +108,7 @@ ol{
     position: absolute;
     top: 0;
     opacity: 0;
-    color: white;
+    color: black;
     transition: opacity .5s;
 }
 
