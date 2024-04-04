@@ -35,7 +35,7 @@
                 </div>
                 <div class="texto">
                     <h3>Cloud Computing</h3>
-                    <p>descirção do serviço</p>
+                    <p>Computação em nuvem é um termo coloquial para a disponibilidade sob demanda de recursos do sistema de computador, especialmente armazenamento de dados e capacidade de computação, sem o gerenciamento ativo direto do utilizador</p>
                 </div>
             </li>
             <li class="card">
@@ -44,7 +44,7 @@
                 </div>
                 <div class="texto">
                     <h4>Cabeamento Estruturado</h4>
-                    <p>descirção do serviço</p>
+                    <p>O cabeamento estruturado é uma forma de organizar e padronizar a estrutura de cabos em uma empresa, de modo a alcançar o máximo de produtividade e desempenho. É aproveitar melhor os recursos. Organiza a estrutura de internet, dados e voz, cuidando, portanto, das telecomunicações e da rede.</p>
                 </div>
             </li>
             <li class="card">
@@ -53,10 +53,52 @@
                 </div>
                 <div class="texto">
                     <h5>Cybersecurity</h5>
-                    <p>descirção do serviço</p>
+                    <p>Segurança de computadores ou cibersegurança é a proteção de sistemas de computador contra roubo ou danos ao hardware, software ou dados eletrônicos, bem como a interrupção ou desorientação dos serviços que fornecem.</p>
                 </div>
             </li>
         </ul>
+    </section>
+    <section id="secao-orcamento">
+        <h2>Faça um orçamento</h2>
+
+        <form action="">
+            <div class="campo linha">
+                <label for="nome">Nome</label>
+                <input type="text" id="nome">
+            </div>
+            <div class="campo linha">
+                <label for="empresa">Empresa</label>
+                <input type="text" id="empresa">
+            </div>
+
+            <div class="campo linha">
+                <label for="email">E-mail Coorporativo</label>
+                <input type="email" id="email">
+            </div>
+            
+            <label for="servico">Serviço</label>
+            <select type="servico" id="servico">
+                <option value="0">Cloud Computing</option>
+                <option value="1">Cabeamento Estruturado</option>
+                <option value="2">Cybersecurity</option>
+            </select>
+
+            <div class="linha">
+                <label for="">Precisa de apoio de engenheiros?</label>
+                <input name="engenheiros" type="radio" id="engenheiro_sim">
+                <label for="engenheiro_sim">Sim, preciso</label>
+                <input name="engenheiros" type="radio" id="engenheiro_nao">
+                <label for="engenheiro_nao">não, já tenho</label>
+            </div>
+                
+                <label for="reuniao">Gostaria de marcar uma reunião para esclarescimentos?</label>
+                <input type="checkbox" id="reuniao">
+
+                <label for="prazo">Prazo</label>
+                <input type="range">
+
+                <button>Enviar</button>
+        </form>
     </section>
 
 </body>
