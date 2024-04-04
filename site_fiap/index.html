@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Data Centers</title>
     <link rel="stylesheet" href="./assets/css/styles.css">
+    <script src="./assets/js/script.js" defer></script>
 </head>
 <body>
     <header>
@@ -75,6 +76,11 @@
                 <label for="email">E-mail Coorporativo</label>
                 <input type="email" id="email">
             </div>
+
+            <div class="quantidade">
+                <label for="qtde">Quantidade de Racks</label>
+                <input type="number" id="qtde" min="1" value="1">
+            </div>
             
             <label for="servico">Serviço</label>
             <select type="servico" id="servico">
@@ -97,8 +103,10 @@
                 <label for="prazo">Prazo</label>
                 <input type="range">
 
-                <button>Enviar</button>
         </form>
+
+        <span id="orcamento">R$500,00</span>
+
     </section>
 
 </body>
